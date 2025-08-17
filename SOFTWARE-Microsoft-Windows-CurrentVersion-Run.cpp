@@ -1,6 +1,6 @@
 // SOFTWARE\Microsoft\Windows\CurrentVersion\Run
-// for Windows, when operating system boots up the calculator.exe program launches; additionally with a messagebox
-------------------------------------------------------------------------------------------------------------------
+// Creates persistence in that path, once restarted it opens a calculator; displays a messageBox once ran (Win32)
+// ------------------------------------------------------------------------------------------------------------------
 
 #include <iostream>
 #include <windows.h>
